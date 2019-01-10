@@ -8,6 +8,10 @@ h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
+a {
+	color: white;
+}
+
 a:hover {
 	text-decoration: none;
 }
@@ -51,7 +55,31 @@ footer p {
 
 .email-sub {
 	background: #191313;
-    border-radius: 8px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    padding: 0 0.3em 0 0.6em;
+    font-size: 0.9em;
+}
+
+.email-enviar {
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	font-size: 0.9em;
+}
+
+.footer-links h6 {
+	font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-postventa {
+	background-color: #001B64;
+    border: 10px solid #001B64;
+    border-radius: 5px;
+    font-weight: bold;
 }
 /*fin generales*/
 
