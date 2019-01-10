@@ -143,5 +143,22 @@ footer a {
 
 /*fin destacados*/
 
-/*footer*/
-/*fin footer*/
+/*sucursales*/
+.sucursales-titulo {
+	background-image: url('../images/vd.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 22em;
+	text-align: center;
+}
+
+.sucursales-titulo h2 {
+	position: relative;
+	top: 5em;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+}
+
+/*fin sucursales*/
