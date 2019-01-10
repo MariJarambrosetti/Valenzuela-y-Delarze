@@ -41,6 +41,13 @@ footer a {
 	color: white;
 }
 
+.rrss {
+	text-align: right;
+    margin: 4rem 0 0 0;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+}
+
 .copyright {
 	text-align: center;
 	padding: 1em 1em 0 1em!important;
