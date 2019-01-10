@@ -161,4 +161,22 @@ footer a {
 	letter-spacing: 0.5em;
 }
 
+.sucursales {
+	margin: 6em;
+}
+
+.sucursales h1 {
+	color: #707070;
+	letter-spacing: 0.4em;
+	margin-bottom: 1em;
+}
+
+.sucursal-card {
+	padding: 0;
+}
+
+.sucursal-card img {
+	max-width: 100%;
+}
+
 /*fin sucursales*/
