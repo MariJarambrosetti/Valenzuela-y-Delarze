@@ -64,6 +64,7 @@ footer a {
     letter-spacing: 1px;
     padding: 0 0.3em 0 0.6em;
     font-size: 0.9em;
+    border: 1px solid;
 }
 
 .email-enviar {
