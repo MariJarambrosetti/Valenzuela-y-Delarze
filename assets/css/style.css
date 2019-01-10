@@ -1,0 +1,103 @@
+
+/*Generales*/
+h1, h2, h3, h4, h5, h6, p, .menu_dv li {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.row {
+	margin: 0;
+}
+
+.style_titulos_secciones {
+	font-size: 2.5em;
+	color: #707070;
+	letter-spacing: 15px;
+}
+
+footer {
+	background-color: #191313;
+    color: #FFFFFF;
+    padding: 4em;
+}
+
+footer p {
+	font-size: 0.7em;
+}
+
+.copyright {
+	text-align: center;
+	padding: 1em 1em 0 1em!important;
+}
+
+.copyright p {
+	font-size: 0.7em;
+}
+/*fin generales*/
+
+/*menu*/
+
+.container-fluid {
+	padding: 0;
+}
+
+.menu_dv, .logo_dv {
+	float: left;
+}
+
+.logo {
+	max-width: 70%;
+}
+
+.menu_dv li {
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menu-principal {
+	padding: 2em;
+}
+
+/*fin menu*/
+
+/*marcas */
+
+.marcas-single, .destacados-single {
+	padding: 4em;
+}
+
+.marcas, .destacados {
+	margin: 4em 0 6em 0;
+}
+
+/*fin marcas*/
+
+/*destacados*/
+
+.destacados h2, .marcas h2{
+	text-align: center;
+}
+
+/*fin destacados*/
+
+/*footer*/
+/*fin footer*/
