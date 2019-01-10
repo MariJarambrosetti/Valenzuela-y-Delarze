@@ -8,10 +8,6 @@ h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
-a {
-	color: white;
-}
-
 a:hover {
 	text-decoration: none;
 }
@@ -42,6 +38,10 @@ footer {
 
 footer p {
 	font-size: 0.7em;
+}
+
+footer a {
+	color: white;
 }
 
 .copyright {
