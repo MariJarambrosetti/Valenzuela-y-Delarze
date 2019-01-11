@@ -175,8 +175,32 @@ footer a {
 	padding: 0;
 }
 
-.sucursal-card img {
-	max-width: 100%;
+.sucursal-card-img {
+	background-image: url('../images/sucursales/padre-hurtado.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 12em;
+	width: 17em;
+}
+
+.sucursal-card-title {
+	background-color: #1193AF;
+	color: white;
+	padding: 1em;
+	margin-top: 10px;
+	width: 17em;
+}
+
+.sucursal-card-title h6, .sucursal-card-detail p {
+	font-size: 0.9em;
+}
+
+.sucursal-card-detail {
+	background-color: #7DBBC8;
+	color: white;
+	padding: 1em;
+	width: 17em;
 }
 
 /*fin sucursales*/
