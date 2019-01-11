@@ -164,7 +164,7 @@ footer a {
 /*sucursales*/
 
 
-.sucursales {
+.sucursales, .contacto {
 	margin: 6em;
 }
 
@@ -172,7 +172,7 @@ footer a {
 	margin-top: 5em;
 }
 
-.sucursales h1 {
+.sucursales h1, .contacto-general h1{
 	color: #707070;
 	letter-spacing: 0.4em;
 	margin-bottom: 1em;
@@ -248,3 +248,9 @@ footer a {
 }
 
 /*fin noticias*/
+
+/*contacto*/
+
+
+
+/*fin contacto*/
