@@ -215,11 +215,15 @@ footer a {
 /*noticias */
 
 .noticias {
-
+	padding: 2em;
 }
 
 .noticias-single {
-	
+	border: 3px solid white;
+	background-image: url('../images/sucursales/padre-hurtado.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 17em;
 }
 
 
