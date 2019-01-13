@@ -115,6 +115,7 @@ footer a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	visibility: hidden;
 }
 
 .overlay  a {
@@ -131,7 +132,10 @@ footer a {
 	color: #707070;
 	border-radius: 3px;
 	padding: 3em;
-	text-align: center;
+}
+
+.popup .btn-cerrar-popup {
+
 }
 
 /*fin generales*/
