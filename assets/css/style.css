@@ -116,6 +116,13 @@ footer a {
 	align-items: center;
 	justify-content: center;
 	visibility: hidden;
+	opacity: 0;
+	transition: .3s ease all;
+}
+
+.overlay-active {
+	visibility: visible; 
+	opacity: 1;
 }
 
 .overlay  a {
@@ -132,10 +139,12 @@ footer a {
 	color: #707070;
 	border-radius: 3px;
 	padding: 3em;
+	opacity: 0;
+	transition: .3s ease all;
 }
 
-.popup .btn-cerrar-popup {
-
+.popup-active {
+	opacity: 1;
 }
 
 /*fin generales*/
