@@ -2,9 +2,9 @@
 $(function() {
 
 	var botones    = $('.btn-abrir'), 
-		overlay    = $('#overlay'), 
-		popup      = $('#popup'),
-		btncerrar  = $('#btn-cerrar-popup');
+		overlay    = $('.overlay'), 
+		popup      = $('.popup'),
+		btncerrar  = $('.btn-cerrar-popup');
 
 	botones.click(function(event) {
 		event.preventDefault();
