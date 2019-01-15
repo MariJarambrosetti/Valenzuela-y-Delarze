@@ -79,123 +79,122 @@
 				<img src="assets/images/vd.jpg" class="img-fluid">
 			</div>
 
-			<div class="col-md-4 sistema">
-				<ul class="nav nav-tabs">
-					<li class="active"><a data-toggle="tab" href="#home">Cotiza Ahora</a></li>
-					<li><a data-toggle="tab" href="#menu1">Agendar Servicio Técnico</a></li>
-				</ul>
-				<div class= "formulario " >
-					<div class="tab-content">
+			<div class="col-md-4 visible-lg visible-md">
 
-						<div id="home" class="tab-pane fade in active">
-							<form class="col-md-12" action="cotizar.php" method="POST" onsubmit="return formulario(this)">
-								<h2>Cotiza</h2>
-								<div class="form-group label_50">
-									<label>Marca a Cotizar</label>
-									<select name="marca" id="marca" class="form-control" >
-										<option value=""></option>
-									</select>
-								</div>
-								<div class="form-group label_50-2">
-									<label>Modelo</label>
-									<select name="modelo" id="modelo" class="form-control" >
-										<option value="0"></option>
-									</select>
-								</div>
-								<div class="form-group label_50">
-									<label>Sucursal</label>
-									<select name="sucursal" id="sucursal" class="form-control" >
-										<option value="0"></option>
-									</select>
-								</div>
-								<div class="form-group label_50-2" style="display: none;">
-									<input type="text" class="form-control" placeholder="Ingrese su nombre y apellido" name="gestion"  id="gestion" value="WEB" > 
-								</div>
-								<div class="form-group label_50-2">
-									<label>Nombre Completo</label>
-									<input type="text" class="form-control" placeholder="Ingrese su nombre y apellido" name="nombre"  id="nombre" > 
-								</div>
-								<div class="form-group label_50">
-									<label>Email</label>
-									<input type="email" class="form-control" placeholder="Ingrese un correo válido" name="email" id="email"  >
-								</div>
-								<div class="form-group label_50-2">
-									<label>Teléfono</label>
-									<input type="number" class="form-control"  placeholder="Ingrese su teléfono" name="telefono" id="telefono" >
-								</div>
-								<div class="form-group label_50">
-									<label>Región</label>
-									<select name="regiones" id="regiones" class="form-control" >
-										<option value="0"></option>
-									</select>
-								</div>
-								<div class="form-group label_50-2">
-									<label>Comuna</label>
-									<select name="comunas" id="comunas" class="form-control">
-										<option value="0"></option>
-									</select>
-								</div>
-								<button type="submit" onClick="ga('send', 'event', 'Boton', 'Click');" class="btn btn-primary label_50-2">Cotizar</button>
-							</form>
-						</div>
-						<div id="menu1" class="tab-pane fade" >
-							<form class="col-md-12" action="agendar.php" method="POST" onsubmit="return formularioAgenda(this)">
-								<h2>Agenda tu Hora</h2>
-								<div class="form-group label_50">
-									<label>Marca</label>
-									<select name="marca" id="marca2" class="form-control" >
-										<option value="0" disabled >Seleccione</option>
-									</select>
-								</div>
-								<div class="form-group label_50-2">
-									<label>Modelo</label>
-									<select name="modelo" id="modelo2" class="form-control" >
-										<option value="0" disabled>Seleccione</option>
-									</select>
-								</div>
-								<div class="form-group label_50">
-									<label>Sucursal</label>
-									<select name="sucursal" id="sucursal2" class="form-control" >
-										<option value="0" disabled>Seleccione</option>
-									</select>
-								</div>
-								<div class="form-group label_50-2">
-									<label>Nombre Completo</label>
-									<input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingrese su nombre y apellido" >
-								</div>
-								<div class="form-group label_50">
-									<label>Email</label>
-									<input type="email" id="mail" name="mail" class="form-control" placeholder="Ingrese un correo válido" >
-								</div>
-								<div class="form-group label_50-2">
-									<label>Teléfono</label>
-									<input type="number" id="fono" name="fono" class="form-control" placeholder="Ingrese su teléfono" >
-								</div>                
-								<div class="form-group" class="col-md-12 col-lg-12">
-									<label>Tipo de Servicio</label>
-									<select  class="form-control" id="servicio" name="servicio">
-										<option value="0" disabled selected>Seleccione *</option>
-										<option value="Entre 10-19 Kms">Entre 10.000 y 19.999 Kms</option>
-										<option value="Entre 20-29 Kms">Entre 20.000 y 29.999 Kms</option>
-										<option value="Entre 30-39 Kms">Entre 30.000 y 39.999 Kms</option>
-										<option value="Entre 40-49 Kms">Entre 40.000 y 49.999 Kms</option>
-										<option value="Entre 50-59 Kms">Entre 50.000 y 59.999 Kms</option>
-										<option value="Entre 60-69 Kms">Entre 60.000 y 69.999 Kms</option>
-										<option value="Superior a 70 mil">Superior a 70.000 Kms</option>
-										<option value="Otros">Otros</option>
-									</select>
-								</div>       
-								<button type="submit" onClick="ga('send', 'event', 'Boton2', 'click2');" name="enviar" class="btn btn-primary col-xs-12 col-md-12">Agendar</button>
-								<div class="form-group">
-									<a href="" class="btn btn-danger col-xs-12 col-md-12" style="margin-top: 2px; font-weight: normal;">Desabolladura y Pintura 2 2840 4006</a>
-								</div>
-							</form>
-						</div>
+					<ul class="nav nav-tabs">
+			        	<li class="active"><a data-toggle="tab" href="#home">Cotiza Ahora</a></li>
+			        	<li><a data-toggle="tab" href="#menu1">Agendar Servicio Técnico</a></li>
+		      		</ul>
+			     
+			    <div class="tab-content">
+			        <div id="home" class="tab-pane fade in active show">
+			          <form class="col-md-12" action="cotizar.php" method="POST" onsubmit="return formulario(this)">
+			                <h2>Cotiza</h2>
+			                <div class="form-group label_50">
+			                  <label>Marca a Cotizar</label>
+			                    <select name="marca" id="marca" class="form-control" >
+			                      <option value=""></option>
+			                    </select>
+			                </div>
+			                <div class="form-group label_50-2">
+			                  <label>Modelo</label>
+			                    <select name="modelo" id="modelo" class="form-control" >
+			                      <option value="0"></option>
+			                    </select>
+			                </div>
+			                <div class="form-group label_50">
+			                  <label>Sucursal</label>
+			                    <select name="sucursal" id="sucursal" class="form-control" >
+			                      <option value="0"></option>
+			                    </select>
+			                </div>
+			                <div class="form-group label_50-2" style="display: none;">
+			                  <input type="text" class="form-control" placeholder="Ingrese su nombre y apellido" name="gestion"  id="gestion" value="WEB" > 
+			                </div>
+			                <div class="form-group label_50-2">
+			                  <label>Nombre Completo</label>
+			                  <input type="text" class="form-control" placeholder="Ingrese su nombre y apellido" name="nombre"  id="nombre" > 
+			                </div>
+			                <div class="form-group label_50">
+			                  <label>Email</label>
+			                  <input type="email" class="form-control" placeholder="Ingrese un correo válido" name="email" id="email"  >
+			                </div>
+			                <div class="form-group label_50-2">
+			                  <label>Teléfono</label>
+			                  <input type="number" class="form-control"  placeholder="Ingrese su teléfono" name="telefono" id="telefono" >
+			                </div>
+			                <div class="form-group label_50">
+			                  <label>Región</label>
+			                    <select name="regiones" id="regiones" class="form-control" >
+			                      <option value="0"></option>
+			                    </select>
+			                </div>
+			                <div class="form-group label_50-2">
+			                  <label>Comuna</label>
+			                    <select name="comunas" id="comunas" class="form-control">
+			                      <option value="0"></option>
+			                    </select>
+			                </div>
+			                <button type="submit" onClick="ga('send', 'event', 'Boton', 'Click');" class="btn btn-primary label_50-2">Cotizar</button>
+			          </form>
+			        </div>
 
-					</div>
-				</div>
+			        <div id="menu1" class="tab-pane fade" >
+			          <form class="col-md-12" action="agendar.php" method="POST" onsubmit="return formularioAgenda(this)">
+			                <h2>Agenda tu Hora</h2>
+			                <div class="form-group label_50">
+			                  <label>Marca</label>
+			                    <select name="marca" id="marca2" class="form-control" >
+			                      <option value="0" disabled >Seleccione</option>
+			                    </select>
+			                </div>
+			                <div class="form-group label_50-2">
+			                  <label>Modelo</label>
+			                    <select name="modelo" id="modelo2" class="form-control" >
+			                      <option value="0" disabled>Seleccione</option>
+			                    </select>
+			                </div>
+			                <div class="form-group label_50">
+			                  <label>Sucursal</label>
+			                    <select name="sucursal" id="sucursal2" class="form-control" >
+			                      <option value="0" disabled>Seleccione</option>
+			                    </select>
+			                </div>
+			                <div class="form-group label_50-2">
+			                  <label>Nombre Completo</label>
+			                  <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingrese su nombre y apellido" >
+			                </div>
+			                <div class="form-group label_50">
+			                  <label>Email</label>
+			                  <input type="email" id="mail" name="mail" class="form-control" placeholder="Ingrese un correo válido" >
+			                </div>
+			                <div class="form-group label_50-2">
+			                  <label>Teléfono</label>
+			                  <input type="number" id="fono" name="fono" class="form-control" placeholder="Ingrese su teléfono" >
+			                </div>                
+			                <div class="form-group" class="col-md-12 col-lg-12">
+			                    <label>Tipo de Servicio</label>
+			                    <select  class="form-control" id="servicio" name="servicio">
+			                      <option value="0" disabled selected>Seleccione *</option>
+			                      <option value="Entre 10-19 Kms">Entre 10.000 y 19.999 Kms</option>
+			                      <option value="Entre 20-29 Kms">Entre 20.000 y 29.999 Kms</option>
+			                      <option value="Entre 30-39 Kms">Entre 30.000 y 39.999 Kms</option>
+			                      <option value="Entre 40-49 Kms">Entre 40.000 y 49.999 Kms</option>
+			                      <option value="Entre 50-59 Kms">Entre 50.000 y 59.999 Kms</option>
+			                      <option value="Entre 60-69 Kms">Entre 60.000 y 69.999 Kms</option>
+			                      <option value="Superior a 70 mil">Superior a 70.000 Kms</option>
+			                      <option value="Otros">Otros</option>
+			                    </select>
+			                </div>       
+			                <button type="submit" onClick="ga('send', 'event', 'Boton2', 'click2');" name="enviar" class="btn btn-primary col-xs-12 col-md-12">Agendar</button>
+			                <div class="form-group">
+			                <a href="" class="btn btn-danger col-xs-12 col-md-12" style="margin-top: 2px; font-weight: normal;">Desabolladura y Pintura 2 2840 4006</a>
+			                </div>
+			          </form>
+			        </div>     
+			    </div>				
 			</div>
-		</div>
+		</div><!-- -- fin del row -->
 	<!-- FIN FRONT SLIDER -->
 
 	<!-- INICIO MARCAS -->
