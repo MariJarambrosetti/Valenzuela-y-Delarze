@@ -273,6 +273,11 @@ footer a {
 .providencia {
 	background-image: url('../images/sucursales/provi.jpg');
 }
+
+.sk-bellavista {
+	background-image: url('../images/sucursales/BELLAVISTA.jpg');
+}
+
 .sucursal-card-title {
 	background-color: #1193AF;
 	color: white;
