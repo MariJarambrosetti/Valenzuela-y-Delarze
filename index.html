@@ -97,63 +97,57 @@
 			    <div class="tab-content">
 			        <div id="home" class="tab-pane fade in active show">
 			          <form class="col" action="cotizar.php" method="POST" onsubmit="return formulario(this)">
-			           
-			                <div class="form-group label_50 row">
-			                	<div class="col columna-sistema">
-			                		<label>Marca a Cotizar</label>
-				                    <select name="marca" id="marca" class="form-control" >
-				                      <option value=""></option>
-				                    </select>
+
+			       			<div class="label_50-2 row">
+			       				<div class="col columna-sistema">
+			               			<input type="text" class="form-control" placeholder="Nombre" name="nombre"  id="nombre" >
 			                	</div>
 			                	<div class="col columna-sistema">
-			                		<label>Modelo</label>
-				                    <select name="modelo" id="modelo" class="form-control" >
-				                      <option value="0"></option>
-				                    </select>
+			                		<input type="number" class="form-control"  placeholder="Ingrese su teléfono" name="telefono" id="telefono" >
 			                	</div>
 			                </div>
 
-			                <div class="form-group label_50 row">
+			                <div class="label_50 columna-sistema">
+			                  <input type="email" class="form-control" placeholder="Email" name="email" id="email"  >
+			                </div>
+
+			                <div class="label_50-2 row">
 			                	<div class="col columna-sistema">
-			                		<label>Sucursal</label>
-				                    <select name="sucursal" id="sucursal" class="form-control" >
-				                      <option value="0"></option>
-				                    </select>
-			                	</div>
-			                	<div class="col columna-sistema">
-			                		<label>Región</label>
 			                    	<select name="regiones" id="regiones" class="form-control" >
-			                      	<option value="0"></option>
+			                      	<option value="0">Región</option>
 			                    	</select>
 			                	</div>
-			                </div>
-
-			                <div class="form-group label_50-2" style="display: none;">
-			                  <input type="text" class="form-control" placeholder="Ingrese su nombre y apellido" name="gestion"  id="gestion" value="WEB" > 
-			                </div>
-
-			                <div class="form-group label_50-2">
-			                  <label>Nombre Completo</label>
-			                  <input type="text" class="form-control" placeholder="Ingrese su nombre y apellido" name="nombre"  id="nombre" > 
-			                </div>
-
-			                <div class="form-group label_50">
-			                  <label>Email</label>
-			                  <input type="email" class="form-control" placeholder="Ingrese un correo válido" name="email" id="email"  >
-			                </div>
-
-			                <div class="form-group label_50-2 row">
 			                	<div class="col columna-sistema">
-			               			<label>Teléfono</label>
-			                  		<input type="number" class="form-control"  placeholder="Ingrese su teléfono" name="telefono" id="telefono" >
-			                	</div>
-			                  <div class="col columna-sistema">
-			                  		<label>Comuna</label>
 			                    	<select name="comunas" id="comunas" class="form-control">
-			                     	<option value="0"></option>
+			                     	<option value="0">Comuna</option>
 			                    	</select>
-			                  </div>
+			                  	</div>
 			                </div>
+			           
+			                <div class="label_50 row">
+			                	<div class="col columna-sistema">
+				                    <select name="marca" id="marca" class="form-control">
+				                      <option value="">Marca</option>
+				                    </select>
+			                	</div>
+			                	<div class="col columna-sistema">
+				                    <select name="modelo" id="modelo" class="form-control" >
+				                      <option value="0">Modelo</option>
+				                    </select>
+			                	</div>
+			                </div>
+
+			                <div class="label_50 row">
+			                	<div class="col columna-sistema">
+			                		<textarea name="mensaje" id="mensaje" class="form-control" placeholder="Mensaje" rows="3" cols="30"></textarea>
+			                	</div>
+			                	<div class="col columna-sistema">
+				                    <select name="sucursal" id="sucursal" class="form-control">
+				                      <option value="0">Sucursal</option>
+				                    </select>
+			                	</div>
+			                </div>
+
 			                	<br>
 			                	 <button type="submit" onClick="ga('send', 'event', 'Boton', 'Click');" class="btn btn-primary label_50-2">Cotizar</button>
 			              
@@ -162,8 +156,6 @@
 
 			        <div id="menu1" class="tab-pane fade" >
 			          <form class="col-md-12" action="agendar.php" method="POST" onsubmit="return formularioAgenda(this)">
-			                <h2>Agenda tu Hora</h2>
-
 			                <div class="form-group label_50 row">
 			                	<div class="col columna-sistema">
 			                		<label>Marca</label>
@@ -203,28 +195,27 @@
 			                	</div>
 
 			                </div>
-			                <div class="form-group label_50">
 
-			                </div>
-			                <div class="form-group label_50-2">
-			                  <label>Nombre Completo</label>
-			                  <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingrese su nombre y apellido" >
-			                </div>
-			                <div class="form-group label_50">
-			                  <label>Email</label>
-			                  <input type="email" id="mail" name="mail" class="form-control" placeholder="Ingrese un correo válido" >
-			                </div>
-			                <div class="form-group label_50-2">
-			                  <label>Teléfono</label>
-			                  <input type="number" id="fono" name="fono" class="form-control" placeholder="Ingrese su teléfono" >
-			                </div>                
-			                <div class="form-group" class="col-md-12 col-lg-12">
-			                    
-			                </div>       
-			                <button type="submit" onClick="ga('send', 'event', 'Boton2', 'click2');" name="enviar" class="btn btn-primary col-xs-12 col-md-12">Agendar</button>
-			                <div class="form-group">
-			                <a href="" class="btn btn-danger col-xs-12 col-md-12" style="margin-top: 2px; font-weight: normal;">Desabolladura y Pintura 2 2840 4006</a>
-			                </div>
+				                <div class="form-group label_50-2">
+				                  <label>Nombre Completo</label>
+				                  <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingrese su nombre y apellido" >
+				                </div>
+				                <div class="form-group label_50">
+				                  <label>Email</label>
+				                  <input type="email" id="mail" name="mail" class="form-control" placeholder="Ingrese un correo válido" >
+				                </div>
+				                <div class="form-group label_50-2">
+				                  <label>Teléfono</label>
+				                  <input type="number" id="fono" name="fono" class="form-control" placeholder="Ingrese su teléfono" >
+				                </div>                
+				                <div class="form-group label_50 row">
+				                	<div class="col">
+				                		<a href="" class="btn btn-danger col-xs-12 col-md-12">Desabolladura y Pintura 2 2840 4006</a>
+				                	</div>
+				                	<div class="col">
+				                		<button type="submit" onClick="ga('send', 'event', 'Boton2', 'click2');" name="enviar" class="btn btn-primary col-xs-12 col-md-12">Agendar</button>
+				                	</div>
+				              	</div>       
 			          </form>
 			        </div>     
 			    </div>				
