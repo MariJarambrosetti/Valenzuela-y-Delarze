@@ -254,14 +254,25 @@ footer a {
 	background-image: url('../images/sucursales/vitacura.jpg');
 }
 
-.providencia {
-	background-image: url('../images/sucursales/provi.jpg');
+.manuel-montt {
+	background-image: url('../images/sucursales/frontis-2.jpg');
 }
 
 .irarrazabal {
 	background-image: url('../images/sucursales/h-irarrazaval.jpg');
 }
 
+.p-irarrazabal {
+	background-image: url('../images/sucursales/PEUGEOT-IRARRAZABAL.jpg');
+}
+
+.mall-plaza-egana {
+	background-image: url('../images/sucursales/mallegaña.jpg');
+}
+
+.providencia {
+	background-image: url('../images/sucursales/provi.jpg');
+}
 .sucursal-card-title {
 	background-color: #1193AF;
 	color: white;
