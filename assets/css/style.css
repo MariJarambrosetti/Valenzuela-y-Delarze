@@ -146,7 +146,21 @@ footer a {
 .popup-active {
 	opacity: 1;
 }
+.carousel-indicators .active {
+	background-color: black;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    /*display: inline;*/
+    /*float: left;*/
+}
 
+.carousel-indicators li {
+	background-color: gray;
+	border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
 /*fin generales*/
 
 /*menu*/
