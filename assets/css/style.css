@@ -254,6 +254,14 @@ footer a {
 	background-image: url('../images/sucursales/vitacura.jpg');
 }
 
+.providencia {
+	background-image: url('../images/sucursales/provi.jpg');
+}
+
+.irarrazabal {
+	background-image: url('../images/sucursales/h-irarrazaval.jpg');
+}
+
 .sucursal-card-title {
 	background-color: #1193AF;
 	color: white;
