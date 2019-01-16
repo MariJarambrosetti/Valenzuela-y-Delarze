@@ -300,4 +300,23 @@ footer a {
 	padding: 0;
 	margin-right: 6px;
 }
+
+.titulos-system {
+	display: inline!important;
+	text-align: center;
+}
+.titulos-system a {
+	color: #302C2C;
+    letter-spacing: 1px;
+}
+
+.titulos-system h4 {
+    font-size: 1.3em;
+}
+
+.sistema-caja {
+	border: 2px solid #7f7f7f;
+    padding: 1em;
+}
+
 /*fin sistema */
