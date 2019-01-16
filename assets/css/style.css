@@ -299,6 +299,12 @@ footer a {
 .columna-sistema {
 	padding: 0;
 	margin-right: 6px;
+	margin: .5em;
+}
+
+.columna-sistema input, .columna-sistema textarea, .columna-sistema select {
+	font-size: .8em;
+	border-radius: 25px;
 }
 
 .titulos-system {
@@ -322,6 +328,16 @@ footer a {
 .sistema-caja-gris {
 	background: #bfbdbd4d;
 	padding: 1.3em 0;
+}
+
+.boton-enviar-sistema {
+	left: 15em;
+    bottom: 1em;
+    position: relative;
+}
+
+.titulos-sistema-caja {
+	margin:1em 0;
 }
 
 /*fin sistema */
