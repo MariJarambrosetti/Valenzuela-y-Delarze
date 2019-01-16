@@ -239,12 +239,19 @@ footer a {
 }
 
 .sucursal-card-img {
-	background-image: url('../images/sucursales/padre-hurtado.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 12em;
 	width: 17em;
+}
+
+.padre-hurtado {
+	background-image: url('../images/sucursales/padre-hurtado.jpg');
+}
+
+.vitacura {
+	background-image: url('../images/sucursales/vitacura.jpg');
 }
 
 .sucursal-card-title {
