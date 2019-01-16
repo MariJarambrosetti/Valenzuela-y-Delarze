@@ -340,4 +340,16 @@ footer a {
 	margin:1em 0;
 }
 
+.estilo-boton-enviar {
+	font-weight: bolder;
+	margin-top: 1em;
+}
+
+.btn-desabolladura {
+	font-size: .6em;
+	font-weight: bolder;	
+	margin-top: 1em;
+
+}
+
 /*fin sistema */
