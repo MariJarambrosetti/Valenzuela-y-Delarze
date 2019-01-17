@@ -17,4 +17,7 @@ $(function() {
 		overlay.removeClass('overlay-active');
 	});
 
+
+	document.addEventListener("touchstart", function(){}, true);
+
 });
