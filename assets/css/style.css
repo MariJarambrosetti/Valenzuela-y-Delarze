@@ -514,4 +514,22 @@ footer a {
 	.menu_dv li {
 		margin-left: 0;
 	}
+
+	.imagen-slider {
+		height: 30vh;
+	}
+
+	.search-box {
+		width: 18em;
+		margin-left: 0;
+	}
+
+	.boton-enviar-sistema {
+		left: 12em;
+	}
+
+	.sistema-caja {
+		margin-top: 1.5em;
+	}
+
 }
