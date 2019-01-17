@@ -566,6 +566,10 @@ footer a {
 		margin-bottom: 0;
 	}
 
+	.extencion-ultimo-col {
+		height: 18em!important;
+	}
+
 	.destacado-card {
 		height: 15em;
 		margin-bottom: 1em;
@@ -591,5 +595,10 @@ footer a {
 	.columna-footer-2 {
 		padding-left: 0;
 	}
+
+	.margin-ultimo-col {
+		height: 19em;
+	}
+
 
 }
