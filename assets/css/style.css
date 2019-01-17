@@ -490,3 +490,15 @@ footer a {
 }
 
 /*fin buscador*/
+
+/*para celulares */ 
+
+@media only screen and (max-width: 600px) {
+	.link-logo {
+		max-width: 50%;
+	}
+
+	.logo {
+    max-width: 100%;
+	}
+}
