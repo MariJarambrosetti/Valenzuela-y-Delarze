@@ -526,6 +526,211 @@ footer a {
 
 /*fin buscador*/
 
+
+.titulo .noticias-titulo {
+text-align:left;
+top:16em
+}
+
+.titulo .noticias-titulo.interior {
+text-align:left;
+top:15em;
+text-transform:uppercase
+}
+
+.titulo .noticias-titulo.interior h2 {
+top:0;
+margin-bottom:0
+}
+
+.titulo .noticias-titulo.interior p {
+top:0;
+margin-bottom:0;
+letter-spacing:.45em;
+font-size:16px
+}
+
+section.detalle-noticia {
+margin-top:5em;
+margin-bottom:3em
+}
+
+section.detalle-noticia p {
+font-size:14px
+}
+
+section.detalle-noticia .formulario-cotizacion {
+margin-top:1em
+}
+
+section.detalle-noticia .box {
+margin-bottom:2em;
+text-transform:uppercase;
+color:#726363
+}
+
+section.detalle-noticia .box h2 {
+font-weight:700;
+letter-spacing:.5em
+}
+
+section.detalle-noticia .box span {
+letter-spacing:.45em
+}
+
+.contacto .contacto-general {
+margin-bottom:2em
+}
+
+.contacto .contacto-general form .form-group {
+margin-bottom:2rem
+}
+
+.contacto .contacto-general form input,.contacto .contacto-general form textarea,.contacto .contacto-general form select {
+border-radius:16px;
+padding:10px 15px
+}
+
+.contacto .contacto-general form select {
+font-size:.8em;
+-webkit-border-radius:16px
+}
+
+.contacto .contacto-general form .btn {
+padding:7px 10px;
+float:right;
+line-height:0;
+letter-spacing:1px
+}
+
+::-webkit-input-placeholder {
+font-size:.8em
+}
+
+::-moz-placeholder {
+font-size:.8em
+}
+
+:-ms-input-placeholder {
+font-size:.8em
+}
+
+:-moz-placeholder {
+font-size:.8em
+}
+
+.box-producto {
+display:flex;
+align-items:center;
+justify-content:center
+}
+
+.galeria {
+margin-top:2em
+}
+
+.img-banner {
+margin:auto;
+width:100%
+}
+
+.galeria img {
+width:100%;
+height:100%
+}
+
+.galeria .row {
+margin:2em auto
+}
+
+.detalles .detalles-s {
+display:-webkit-flex;
+display:flex
+}
+
+.detalles .row {
+margin-top:2em
+}
+
+.detalles .detalles-s div {
+width:90%;
+background:#f1f9ff;
+padding:20px;
+margin-bottom:20px
+}
+
+.detalles .detalles-s div h3 {
+font-size:1em;
+color:#736565;
+line-height:1.5em;
+text-transform:none
+}
+
+.detalles .detalles-s div p {
+font-size:.9em;
+color:#736565
+}
+
+.detalles .opciones .detalles-s div {
+padding:0
+}
+
+.detalles .opciones .detalles-s div a {
+color:#001B64;
+text-align:center;
+text-transform:uppercase;
+width:100%;
+display:inline-block;
+font-style:2em;
+font-weight:700;
+letter-spacing:3px;
+height:100%;
+padding:20px
+}
+
+.detalles .opciones .detalles-s div:hover a {
+background:#001B64;
+color:#fff
+}
+
+.detalles .opciones:last-child .detalles-s div {
+width:97%
+}
+
+.columna-sistema {
+padding:2px;
+margin:.5em 0
+}
+/* mobile*/
+@media (max-width:767px) {
+.sucursales,.contacto {
+margin:3em auto
+}
+
+.contacto-general h1 {
+font-size:1.5rem;
+text-align:center
+}
+
+.contacto .contacto-general form .btn {
+float:none;
+margin:0 auto;
+display:block
+}
+
+.detalles .detalles-s div,.detalles .opciones:last-child .detalles-s div {
+width:100%
+}
+
+.detalles .row {
+margin-top:0
+}
+
+.detalles .row:nth-of-type(1) {
+margin-top:2em
+}
+}
+
 /*para celulares */ 
 
 @media only screen and (max-width: 812px) {

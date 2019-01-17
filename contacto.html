@@ -12,14 +12,14 @@
 <body>
 	<!-- MENU -->
 	<nav class="navbar navbar-expand-lg navbar-light menu-principal">
-		<a class="navbar-brand link-logo" href="index.html">
+		<a class="navbar-brand" href="index.html">
 			<img class="logo" src="assets/images/logos/valenzuela_02.png" alt="Valenzuela & Delarze" class="img-fluid">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse navbar-vd-principal" id="navbarSupportedContent">
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav menu_dv">
 				<li class="nav-item">
 					<a class="nav-link" href="nuevos.html">
@@ -69,7 +69,7 @@
 			<a href=""><li>Contacto</li></a> 
 		</ul>
 	</div> -->
-	<!-- FIN MENU -->
+<!-- FIN MENU -->
 
 <!-- TITULO SUCURSALES -->
 	<div class="titulo">
@@ -80,18 +80,197 @@
 	<section class="container contacto">
 		<div class="contacto-general">
 			<h1>Felicitaciones</h1>
+			<form class="felicitaciones" action='' method="POST">
+				<div class="row">
+				   <div class="form-group col-md-6">
+				      <!--area de felicitaciones-->
+				       <select class="form-control" id="sel1">
+				       	<option disabled selected>Área de felicitaciones</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					  </select>
+				    </div>
+				 
+				    <div class="form-group col-md-6">
+				      <!-- Nombre completo -->
+				        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre Completo" />
+				    </div>
+				 
+				    <div class="form-group col-md-6">
+				      <!-- Email -->
+				        <input type="text" class="form-control" id="mail" name="mail" placeholder="E-mail" />
+				    </div>
+
+				 	<div class="form-group col-md-6">
+				      <!-- Telefono -->
+				        <input type="text" class="form-control" id="phone" name="phone" placeholder="Teléfono" />
+				    </div>
+
+				    <div class="form-group col-md-3">
+				      <!-- Ciudad -->
+				        <input type="text" class="form-control" id="city" name="city" placeholder="Ciudad" />
+				    </div>
+
+				    <div class="form-group col-md-6">
+				      <!-- Nombre ejecutivo -->
+				        <input type="text" class="form-control" id="phone" name="phone" placeholder="Nombre ejecutivo" />
+				    </div>
+
+				    <div class="form-group col-md-3">
+				      <!-- Sucursal -->
+				        <select class="form-control" id="sel1">
+				       	<option disabled selected>Sucursal</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					  </select>
+				    </div>
+
+				    <div class="form-group col-md-12">
+				    	<textarea class="form-control" rows="5" placeholder="Escriba su felicitación"></textarea>
+				    </div>
+				    <div class="form-group col-md-12">
+	                	<div class="col">
+	                		<button type="submit" onClick="" name="enviar" class="btn btn-primary col-xs-4 btn-postventa">Enviar</button>
+	                	</div>
+	              	</div>  
+				</div>
+			</form>
 		</div>
 		<div class="contacto-general">
 			<h1>Consulta</h1>
+			<form class="consulta" action='' method="POST">
+				<div class="row">
+				   <div class="form-group col-md-6">
+				      <!-- seleccione area-->
+				       <select class="form-control" id="sel1">
+				       	<option disabled selected>Seleccione área</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					  </select>
+				    </div>
+				 
+				    <div class="form-group col-md-6">
+				      <!-- Nombre completo -->
+				        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre Completo" />
+				    </div>
+				 
+				    <div class="form-group col-md-6">
+				      <!-- Email -->
+				        <input type="text" class="form-control" id="mail" name="mail" placeholder="E-mail" />
+				    </div>
+
+				 	<div class="form-group col-md-6">
+				      <!-- Telefono -->
+				        <input type="text" class="form-control" id="phone" name="phone" placeholder="Teléfono" />
+				    </div>
+
+				    <div class="form-group col-md-3">
+				      <!-- Ciudad -->
+				        <input type="text" class="form-control" id="city" name="city" placeholder="Ciudad" />
+				    </div>
+
+				    <div class="form-group col-md-6">
+				      <!-- Marca -->
+				       <select class="form-control" id="sel1">
+				       	<option disabled selected>Marca</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					  </select>
+				    </div>
+
+				    <div class="form-group col-md-3">
+				      <!-- Sucursal -->
+				        <select class="form-control" id="sel1">
+				       	<option disabled selected>Sucursal</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					  </select>
+				    </div>
+
+				    <div class="form-group col-md-12">
+				    	<textarea class="form-control" rows="5" placeholder="Déjanos su consulta"></textarea>
+				    </div>
+
+				    <div class="form-group col-md-12">
+	                	<div class="col">
+	                		<button type="submit" onClick="" name="enviar" class="btn btn-primary col-xs-4 btn-postventa">Enviar</button>
+	                	</div>
+	              	</div>  
+				</div>
+			</form>
 		</div>
 		<div class="contacto-general">
 			<h1>Reclamos</h1>
+			<form class="reclamos" action='' method="POST">
+				<div class="row">
+				   <div class="form-group col-md-6">
+				      <!--area de felicitaciones-->
+				        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre Completo" />
+				    </div>
+				 
+				    <div class="form-group col-md-6">
+				      <!-- Email -->
+				        <input type="text" class="form-control" id="mail" name="mail" placeholder="E-mail" />
+				    </div>
+
+				 	<div class="form-group col-md-6">
+				      <!-- Telefono -->
+				        <input type="text" class="form-control" id="phone" name="phone" placeholder="Teléfono" />
+				    </div>
+
+				    <div class="form-group col-md-6">
+				      <!-- Ciudad -->
+				        <input type="text" class="form-control" id="city" name="city" placeholder="Ciudad" />
+				    </div>
+
+				    <div class="form-group col-md-6">
+				      <!-- Marca -->
+				       <select class="form-control" id="sel1">
+				       	<option disabled selected>Marca</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					  </select>
+				    </div>
+
+				    <div class="form-group col-md-6">
+				      <!-- Sucursal -->
+				        <select class="form-control" id="sel1">
+				       	<option disabled selected>Sucursal</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					  </select>
+				    </div>
+
+				    <div class="form-group col-md-12">
+				    	<textarea class="form-control" rows="5" placeholder="Ingrese su reclamo"></textarea>
+				    </div>
+				    <div class="form-group col-md-12">
+	                	<div class="col">
+	                		<button type="submit" onClick="" name="enviar" class="btn btn-primary col-xs-4 btn-postventa">Enviar</button>
+	                	</div>
+	              	</div>  
+				</div>
+			</form>
 		</div>
 	</section>
 
 	<footer>
 		<div class="row">
-			<div class="col columna-footer-1">
+			<div class="col">
 				<h5>Suscribete vía Email</h5>
 				<p>Copyright 2018 VALENZUELA & DELARZE. Todos los Derechos Reservados. Los precios de venta y equipamientos publicitados en este sitio web son referenciales y están sujetos a confirmación. Cuando por error de publicación estos no sean los del Mercado, el Cliente deberá ratificarlos en la Empresa. Valenzuela & Delarze se reserva el derecho a modificar, valores, cuotas y especificaciones ténicas sin previo aviso. Ver Políticas de Privacidad</p>
 				<form action="AQUI VA EL ARCHIVO PHP PARA ENVIAR">
@@ -99,7 +278,7 @@
 					<input type="submit" value="Suscribir" class="email-enviar">
 				</form>
 			</div>
-			<div class="col columna-footer-2">
+			<div class="col">
 				<div class="row footer-links">
 					<div class="col">
 						<h6>
@@ -120,78 +299,6 @@
 						</button>
 					</div>
 					<div class="col">
-						<h6>
-							<a href="#">Contáctanos</a> 
-						</h6>
-						<h6>
-							<a href="#">Nuevos</a>
-						</h6>
-						<h6>
-							<a href="#">Usados</a>
-						</h6>
-					</div>
-					<div class="col">
-						<h6>
-							<a href="#">Noticias</a>
-						</h6>
-						<h6>
-							<a href="#">Términos y Condiciones</a>
-						</h6>
-						<div class="rrss">
-							<a href="https://www.facebook.com/valenzueladelarze">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a href="https://www.youtube.com/channel/UCEDXGQZq6-4l8gtuYU4X9Ig/feed" >
-								<i class="fab fa-youtube"></i>
-							</a>
-						</div>	
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- contenedor pop up -->
-		<div class="overlay">
-			<div class="popup">
-				<a href="#">
-					<i class="fas fa-times btn-cerrar-popup"></i>
-				</a>
-				<h3>Número de telefono</h3>
-				<h3>Email</h3>
-			</div>
-		</div>
-		<!-- fin contenedor pop up  -->
-	<footer>
-		<div class="row">
-			<div class="col-sm columna-footer-1">
-				<h5>Suscribete vía Email</h5>
-				<p>Copyright 2018 VALENZUELA & DELARZE. Todos los Derechos Reservados. Los precios de venta y equipamientos publicitados en este sitio web son referenciales y están sujetos a confirmación. Cuando por error de publicación estos no sean los del Mercado, el Cliente deberá ratificarlos en la Empresa. Valenzuela & Delarze se reserva el derecho a modificar, valores, cuotas y especificaciones ténicas sin previo aviso. Ver Políticas de Privacidad</p>
-				<form action="AQUI VA EL ARCHIVO PHP PARA ENVIAR">
-					<input type="email" name="emailaddress" class="email-sub" value=" Email">
-					<input type="submit" value="Suscribir" class="email-enviar">
-				</form>
-			</div>
-			<div class="col-sm columna-footer-2">
-				<div class="row footer-links">
-					<div class="col">
-						<h6>
-							<a class="btn-abrir" href="#">
-								Número de teléfono
-							</a> 
-						</h6>
-						<h6>
-							<a class="btn-abrir" href="#">
-								Email
-							</a> 
-						</h6>
-						<h6>
-							<a href="#">Sucursales</a> 
-						</h6>
-						<button type="button" class="btn-postventa">
-							<a href="#">Post Venta</a> 
-						</button>
-					</div>
-					<div class="col-sm ">
 						<h6>
 							<a href="#">Contáctanos</a> 
 						</h6>
