@@ -494,6 +494,11 @@ footer a {
 /*para celulares */ 
 
 @media only screen and (max-width: 812px) {
+
+	footer {
+		padding: 1em;
+	}
+
 	.link-logo {
 		max-width: 50%;
 	}
@@ -532,4 +537,38 @@ footer a {
 		margin-top: 1.5em;
 	}
 
+	.destacados-single {
+		padding: 0;
+	}
+
+	.marcas-single {
+		padding: 2em;
+	}
+
+	.destacado-texto-principal h4 {
+		font-weight: 700;
+		font-size: 1em;
+	}
+
+	.style_titulos_secciones {
+		margin-bottom: 1em;
+	}
+
+	.destacado-texto-detalle p {
+		font-size: .8em;
+		margin-bottom: 0;
+	}
+
+	.destacado-card {
+		height: 15em;
+		margin-bottom: 1em;
+	}
+
+	.carousel-indicators {
+		bottom: -23px;
+	}
+
+	.columna-footer-1 {
+		margin-bottom: 2em;
+	}
 }
