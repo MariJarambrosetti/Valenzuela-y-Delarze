@@ -601,5 +601,44 @@ footer a {
 		height: 19em;
 	}
 
+	.sucursales {
+		margin: 0;
+	}
+
+	.sucursales h1 {
+		font-size: 1.6em;
+	}
+
+	.titulo h2 {
+		font-size: 1.3em;
+	}
+
+	.titulo {
+		height: 14em;
+	}
+
+	.cuadros {
+		box-sizing: border-box;
+		width: 50%;
+		height: 8em;
+		float: left;
+		margin: 0;
+	}
+
+	.cuadro-bajo {
+		box-sizing: border-box;
+		width: 100%;
+		height: 8em;
+		float: left;
+		margin: 0;
+	}
+
+	.sucursal-card-detail p {
+		font-size: .6em;
+	}
+
+	.sucursal-card {
+		margin-bottom: 2em;
+	}
 
 }
