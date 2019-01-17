@@ -282,6 +282,18 @@ footer a {
 	background-image: url('../images/sucursales/Ford.JPG');
 }
 
+.usados-vitacura {
+	background-image: url('../images/sucursales/usados.jpg');
+}
+
+.usados-bilbao {
+	background-image: url('../images/sucursales/usados_bilbao.png');
+}
+
+.autoshoping {
+	background-image: url('../images/sucursales/usados_autoshopping.jpg');
+}
+
 .sucursal-card-title {
 	background-color: #1193AF;
 	color: white;
