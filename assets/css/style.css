@@ -161,6 +161,14 @@ footer a {
     width: 10px;
     height: 10px;
 }
+
+.imagen-slider {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../images/vd.jpg');
+	height: 64vh;
+}
 /*fin generales*/
 
 /*menu*/
@@ -378,7 +386,11 @@ footer a {
 }
 
 .titulos-system h4 {
-    font-size: 1.3em;
+   font-size: 1em;
+}
+.form-control {
+	height: 2em;
+	padding: .1em 1em;
 }
 
 .sistema-caja {
@@ -388,7 +400,7 @@ footer a {
 
 .sistema-caja-gris {
 	background: #bfbdbd4d;
-	padding: 1.3em 0;
+	padding: .5em 0;
 }
 
 .boton-enviar-sistema {
@@ -423,7 +435,8 @@ footer a {
   border: none;
   cursor: pointer;
   background: #ebebeb;
-  margin-left: 5.1em;
+  margin-left: 2em;
+  height: 1.5em;
 
 }
 .search-box + label .search-icon {
@@ -470,6 +483,10 @@ footer a {
   left: -30px;
   color: white;
   cursor: pointer;
+}
+
+.buscador {
+	height: 1em;
 }
 
 /*fin buscador*/
