@@ -571,4 +571,18 @@ footer a {
 	.columna-footer-1 {
 		margin-bottom: 2em;
 	}
+
+	.btn-postventa {
+		position: absolute;
+		bottom: -10em;
+	}
+
+	.email-sub {
+		width: 12em;
+	}
+
+	.columna-footer-2 {
+		padding-left: 0;
+	}
+
 }
