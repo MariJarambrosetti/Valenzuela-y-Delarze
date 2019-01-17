@@ -169,6 +169,19 @@ footer a {
 	background-image: url('../images/vd.jpg');
 	height: 64vh;
 }
+
+.titulo-marcas {
+	position: relative;
+    top: 5em;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+.text-align {
+		text-align: center;
+		margin-bottom: 5em;
+}
 /*fin generales*/
 
 /*menu*/
@@ -322,6 +335,25 @@ footer a {
 }
 
 /*fin sucursales*/
+
+/*modelos*/
+
+.recomendado-card {
+	padding: 1em;
+	background: #f1f9ff;
+	margin-bottom: 1em;
+}
+
+.recomendado-card h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.recomendado-detalle {
+	padding: 2em;
+}
+
+/*fin modelos*/
 
 /*noticias */
 
@@ -491,6 +523,7 @@ footer a {
 	height: 1em;
 }
 
+
 /*fin buscador*/
 
 /*para celulares */ 
@@ -643,6 +676,10 @@ footer a {
 
 	.noticias-single {
 		margin-bottom: 1em;
+	}
+
+	.titulo-marcas {
+		font-size: 1.3em;
 	}
 
 }
