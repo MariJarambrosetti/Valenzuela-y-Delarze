@@ -396,11 +396,13 @@ footer a {
 .sistema-caja {
 	border: 2px solid #7f7f7f;
     padding: 1em;
+    height: 64vh;
 }
 
 .sistema-caja-gris {
 	background: #bfbdbd4d;
 	padding: .5em 0;
+	height: 58vh;
 }
 
 .boton-enviar-sistema {
@@ -429,7 +431,7 @@ footer a {
 
 /*buscdor*/
 .search-box {
-  width: 19em;
+  width: 17em;
   transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
   border-radius: 20px;
   border: none;
@@ -525,16 +527,21 @@ footer a {
 	}
 
 	.search-box {
-		width: 17em;
-		margin-left: 0;
+		width: 13em;
+    	margin-left: 1em;
 	}
 
 	.boton-enviar-sistema {
-		left: 12em;
+		left: 9em;
 	}
 
 	.sistema-caja {
 		margin-top: 1.5em;
+		height: 73vh;
+	}
+
+	.sistema-caja-gris {
+		height: 66vh;
 	}
 
 	.destacados-single {
