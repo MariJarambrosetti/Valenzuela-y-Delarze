@@ -532,16 +532,16 @@ footer a {
 	}
 
 	.boton-enviar-sistema {
-		left: 9em;
+		left: 11em;
 	}
 
 	.sistema-caja {
 		margin-top: 1.5em;
-		height: 73vh;
+		height: 57vh;
 	}
 
 	.sistema-caja-gris {
-		height: 66vh;
+		height: 51vh;
 	}
 
 	.destacados-single {
@@ -639,6 +639,10 @@ footer a {
 
 	.sucursal-card {
 		margin-bottom: 2em;
+	}
+
+	.noticias-single {
+		margin-bottom: 1em;
 	}
 
 }
