@@ -34,7 +34,7 @@ footer {
 }
 
 footer p {
-	font-size: 0.7em;
+	font-size: 0.8em;
 }
 
 footer a {
@@ -79,6 +79,7 @@ footer a {
 	font-size: 10px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 1.5em;
 }
 
 .btn-postventa {
@@ -86,6 +87,7 @@ footer a {
     border: 10px solid #001B64;
     border-radius: 5px;
     font-weight: bold;
+    margin: 1em 0;
 }
 
 .titulo {
@@ -428,20 +430,15 @@ footer a {
 .sistema-caja {
 	border: 2px solid #7f7f7f;
     padding: 1em;
-    height: 64vh;
+    height: auto;
 }
 
 .sistema-caja-gris {
 	background: #bfbdbd4d;
 	padding: .5em 0;
-	height: 58vh;
+	height: auto;
 }
 
-.boton-enviar-sistema {
-	left: 15em;
-    bottom: 1em;
-    position: relative;
-}
 
 .titulos-sistema-caja {
 	margin:1em 0;
@@ -449,7 +446,6 @@ footer a {
 
 .estilo-boton-enviar {
 	font-weight: bolder;
-	margin-top: 1em;
 }
 
 .btn-desabolladura {
@@ -769,17 +765,13 @@ margin-top:2em
     	margin-left: 1em;
 	}
 
-	.boton-enviar-sistema {
-		left: 11em;
-	}
-
 	.sistema-caja {
 		margin-top: 1.5em;
-		height: 57vh;
+		height: auto;
 	}
 
 	.sistema-caja-gris {
-		height: 51vh;
+		height: auto;
 	}
 
 	.destacados-single {
@@ -819,12 +811,13 @@ margin-top:2em
 	}
 
 	.columna-footer-1 {
-		margin-bottom: 2em;
+		margin-bottom: 3em;
+		margin-top: 2em;
 	}
 
 	.btn-postventa {
 		position: absolute;
-		bottom: -10em;
+		bottom: -13em;
 	}
 
 	.email-sub {
