@@ -236,6 +236,8 @@ footer a {
 .destacado-card {
 	background-color: #F1F9FF;
 	padding: 1em;
+	border: 1px solid #91b4de;
+    border-radius: 10px;
 }
 
 /*fin destacados*/
@@ -776,6 +778,7 @@ margin-top:2em
 
 	.destacados-single {
 		padding: 0;
+		margin: 4em 0;
 	}
 
 	.marcas-single {
@@ -798,7 +801,7 @@ margin-top:2em
 	}
 
 	.extencion-ultimo-col {
-		height: 18em!important;
+		height: 20em!important;
 	}
 
 	.destacado-card {
