@@ -197,7 +197,7 @@ footer a {
 }
 
 .logo {
-	max-width: 70%;
+	max-width: 90%;
 }
 
 .menu_dv li {
@@ -413,12 +413,17 @@ footer a {
 }
 
 .titulos-system {
-	display: inline!important;
 	text-align: center;
 }
 .titulos-system a {
 	color: #302C2C;
     letter-spacing: 1px;
+}
+
+.titulos-system li {
+	float: left;
+	margin: 0 .3em;
+
 }
 
 .titulos-system h4 {
@@ -432,18 +437,20 @@ footer a {
 .sistema-caja {
 	border: 2px solid #7f7f7f;
     padding: 1em;
-    height: auto;
+    height: 64vh;
 }
 
 .sistema-caja-gris {
 	background: #bfbdbd4d;
 	padding: .5em 0;
-	height: auto;
+	height: 58vh;
+	text-align: center;
 }
 
 
 .titulos-sistema-caja {
-	margin:1em 0;
+	padding: 1em;
+	display: inline-block;
 }
 
 .estilo-boton-enviar {
@@ -769,10 +776,6 @@ margin-top:2em
 
 	.sistema-caja {
 		margin-top: 1.5em;
-		height: auto;
-	}
-
-	.sistema-caja-gris {
 		height: auto;
 	}
 
