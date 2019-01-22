@@ -39,7 +39,7 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="post-venta.html">
-						Post Venta
+						PostVenta
 					</a>
 				</li>
 				<li class="nav-item">
@@ -54,9 +54,12 @@
 				</li>
 			</ul>
 			<form class="justify-content-end">
-				<input type="search" class="service-search rounded" onfocus="this.placeholder = ''" />
-				<button class="btn btn-outline-dark" name="search">
-					<i class="fas fa-search"></i></button>
+				<div class="row">
+					<input type="search" class="service-search rounded buscador" placeholder= "Buscar..."onfocus="this.placeholder = ''" />
+					<button class="btn btn-light rounded-circle buscador-btn" name="search">
+						<i class="fas fa-search"></i>
+					</button>
+				</div>
 			</form>
 		</div>
 	</nav>
@@ -79,13 +82,13 @@
 	<!-- FRONT SLIDER -->	
 	<div class="container-fluid front-slider">
 		<div class="row">
-			<div class="col-md-8 p-0">
+			<div class="col-md-8 col-lg-8 p-0 ">
 				<div class="imagen-slider">
 					
 				</div>
 			</div>
 
-			<div class="col-md-4 visible-lg visible-md">
+			<div class="col-md-4 col-lg-4 visible-lg visible-md">
 				<div class="sistema-caja">
 					<div class="sistema-caja-gris">
 						<div class="titulos-sistema-caja">
@@ -157,7 +160,7 @@
 				                	</div>
 				                </div>
 				                <div class="row">
-				                	<div class="col-sm offset-md-8">
+				                	<div class="col-sm offset-md-8 offset-lg-6 col-lg-5">
 				                		<button type="submit" onClick="ga('send', 'event', 'Boton', 'Click');" class="btn btn-primary boton-enviar-sistema estilo-boton-enviar">Cotizar</button>
 				                	</div>     	
 				                </div>
