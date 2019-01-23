@@ -647,7 +647,7 @@ margin:.5em 0
 }
 
 /* mobile*/
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
 	.sucursales,.contacto {
 	margin:3em auto
 	}
@@ -726,6 +726,7 @@ margin:.5em 0
 	.destacado-texto-principal h4 {
 		font-weight: 700;
 		font-size: 1em;
+		margin-top: 10px;
 	}
 
 	.style_titulos_secciones {
@@ -840,6 +841,18 @@ margin:.5em 0
 
 	.buscador-btn {
 		display: none;
+	}
+
+	.destacado-texto-principal h4 {
+		font-size: 1em;
+    	font-weight: bold;
+    	margin-top: 10px;
+
+	}
+
+	.destacado-texto-detalle p {
+		margin: 0;
+   		font-size: xx-small;
 	}
 	
 
