@@ -181,9 +181,23 @@ footer a {
     text-align: center;
 }
 .text-align {
-		text-align: center;
-		margin-bottom: 5em;
+	text-align: center;
+	margin-bottom: 5em;
 }
+
+.rrss-barra {
+	padding: 1em!important;
+}
+
+.rrss-barra a {
+	color: white;
+	padding: .5em;
+}
+
+.rrss-barra a:hover {
+	color: blue;
+}
+
 /*fin generales*/
 
 /*menu*/
@@ -240,7 +254,9 @@ footer a {
 	border: 1px solid #91b4de;
     border-radius: 10px;
 }
-
+ .destacado-texto-principal h4 { 
+ 	margin-top: 10px;
+ }
 /*fin destacados*/
 
 /*sucursales*/
@@ -899,8 +915,8 @@ margin:.5em 0
 
 @media only screen and (min-width: 1201px) {
 
-	.estilo-boton-enviar {
-		margin-left: 0;
+	.offset-lg-6 {
+		margin-left: auto;
 	}
 
 	.destacado-card {
