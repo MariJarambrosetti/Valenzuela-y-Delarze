@@ -647,7 +647,7 @@ margin:.5em 0
 }
 
 /* mobile*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
 	.sucursales,.contacto {
 	margin:3em auto
 	}
@@ -827,6 +827,8 @@ margin:.5em 0
 
 @media only screen and (max-width: 992px) {
 
+	/*inicio*/
+
 	.titulos-system h4 {
 		font-size: .8em;
 	}
@@ -854,13 +856,55 @@ margin:.5em 0
 		margin: 0;
    		font-size: xx-small;
 	}
+
+	.destacado-card {
+		height: 14em; 
+	}
 	
 
 }
 
 /*large desktop*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
 
-	
+	/*inicio*/
+
+	.estilo-boton-enviar {
+		position: absolute;
+    	bottom: -20px;
+	}
+
+	.destacado-texto-principal h4 {
+		font-size: 1em;
+    	font-weight: bold;
+    	margin-top: 10px;
+
+	}
+
+
+	.destacado-texto-detalle p {
+		margin: 0;
+   		font-size: xx-small;
+	}
+
+	.destacado-card {
+		height: 14em; 
+	}
+
+	.buscador-btn {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 1201px) {
+
+	.estilo-boton-enviar {
+		margin-left: 0;
+	}
+
+	.destacado-card {
+		height: 20em;
+	}
 
 }
